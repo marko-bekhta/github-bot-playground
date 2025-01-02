@@ -7,3 +7,21 @@ jira:
       titlePattern: "Bump.*the build-dependencies group( across \\d+ director(ies|y))?( with \\d+ updates?)?"
 licenseAgreement:
   enabled: true
+pullRequestTasks:
+  enabled: true
+  genericTasks:
+    - task1
+    - task2
+    - task3
+    - task4
+  tasks:
+    bug:
+      - bug task1
+      - bug task2
+      - bug task3
+      - bug task4
+    improvement:
+      - improvement task1
+      - improvement task2
+      - improvement task3
+      - improvement task4
