@@ -9,12 +9,12 @@ licenseAgreement:
   enabled: true
 pullRequestTasks:
   enabled: true
-  genericTasks:
-    - task1
-    - task2
-    - task3
-    - task4
   tasks:
+    default:
+      - task1
+      - task2
+      - task3
+      - task4
     bug:
       - bug task1
       - bug task2
