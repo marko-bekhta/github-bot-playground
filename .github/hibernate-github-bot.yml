@@ -8,6 +8,7 @@ jira:
     - team:
         name: search-dev
         organization: hibernate
+      titlePattern: ".*+"
 licenseAgreement:
   enabled: true
 pullRequestTasks:
