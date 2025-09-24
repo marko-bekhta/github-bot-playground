@@ -29,3 +29,5 @@ pullRequestTasks:
       - improvement task2
       - improvement task3
       - improvement task4
+branchLabel:
+  enabled: true
