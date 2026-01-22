@@ -5,10 +5,6 @@ jira:
     # See the `build-dependencies` group in the Dependabot's configuration file
     - user: dependabot[bot]
       titlePattern: "Bump.*the build-dependencies group( across \\d+ director(ies|y))?( with \\d+ updates?)?"
-    - team:
-        name: search-dev
-        organization: hibernate
-      titlePattern: ".*+"
 licenseAgreement:
   enabled: true
 pullRequestTasks:
